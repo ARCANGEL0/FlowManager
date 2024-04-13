@@ -1,0 +1,101 @@
+
+
+.filtro {
+  margin-right: 0.75%;
+}
+
+.container-fluid{
+  margin-top: 2%;
+}
+
+.content-header {
+  margin-bottom: -2%;
+  margin-top: 5%;
+}
+
+.movHeader{
+ margin-bottom: -5%;
+  margin-top: 5%;
+
+}
+
+.content-wrapper { 
+margin-top: -4%; }
+
+#tabelaMovimentacoes_filter {
+    margin-top: 1.5%;
+
+  float:left;
+}
+
+#tabelaMovimentacoes td button {
+  margin-top: 4px;
+  width: 40px;
+  height: 40px;
+}
+#tabelaMovimentacoes thead th,#tabelaMovimentacoes tfoot th
+ {
+  display: none;
+}
+
+
+
+
+
+#tabelaConteiners_filter {
+  margin-bottom: 3%;
+  margin-left: 70%;}
+  
+#tabelaConteiners_paginate,#tabelaMovimentacoes_paginate{
+  margin-left: 70%;
+}
+#tabelaConteiners_wrapper,#tabelaMovimentacoes_wrapper {
+  margin-top: 2%;
+}
+
+.error {
+  border-color: red;
+}
+
+
+#formEdit .d-flex, #formCriar .d-flex {
+  margin-right: 4.25%;
+}
+#formEdit .d-flex label, #formCriar .d-flex label { 
+margin-left: 5%; 
+margin-right: 5%;
+
+}
+#formEdit .d-flex select,#formCriar .d-flex select{
+  text-align: center;
+  text-align-last: center;
+  justify-content: center;
+}
+
+
+
+.pageLogo{
+
+    color: #fff;
+font-size: 40px;
+justify-content: center;
+align-items: center;
+}
+
+.nav-item {
+	margin-bottom: 20px !important;
+}
+
+/* FIREFOX FIX OF UGLY SELECT BOXES */
+@supports (-moz-appearance:none) {
+
+  SELECT
+  {
+  -moz-appearance:none !important;
+  background:  url('data:image/gif;base64,R0lGODlhBgAGAKEDAFVVVX9/f9TU1CgmNyH5BAEKAAMALAAAAAAGAAYAAAIODA4hCDKWxlhNvmCnGwUAOw==') right  no-repeat ;
+  background-position: calc(100% - 5px) center !important;
+  }
+
+}
+
+

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "robmorgan/phinx": "^0.12.7",
+        "cakephp/utility": "^4.2"
+    }
+}
