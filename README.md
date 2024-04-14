@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img height="20%" width="20%" src="https://cdn-icons-png.flaticon.com/512/3712/3712259.png" >
+    <img height="20%" width="20%" src="https://cdn-icons-png.flaticon.com/512/5501/5501564.png" >
   <br>
   <h1>FlowManager 💲</h1>
   <strong>Financial dashboard to manage subscriptions, incomes and outcomes, monthly and annual report and info</strong>
