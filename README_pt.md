@@ -40,7 +40,7 @@
 
 ## Descrição do Projeto
 
-O FlowManager é um painel de gerenciamento financeiro completo construído usando o Laravel. Ele fornece autenticação de conexão segura e uma interface amigável para o gerenciamento de assinaturas mensais, monitoramento de pagamentos e exibição de clientes / assinantes. O painel também permite que os usuários controlem seus dados, gerenciem finanças mensais e anuais, o acesso a estatísticas financeiras e gera relatórios detalhados para meses ou anos específicos.
+O FlowManager é um painel de gerenciamento financeiro completo construído usando o Phinx. Ele fornece autenticação de conexão segura e uma interface amigável para o gerenciamento de assinaturas mensais, monitoramento de pagamentos e exibição de clientes / assinantes. O painel também permite que os usuários controlem seus dados, gerenciem finanças mensais e anuais, o acesso a estatísticas financeiras e gera relatórios detalhados para meses ou anos específicos.
 
 ## Indices
 
@@ -57,7 +57,7 @@ O FlowManager é um painel de gerenciamento financeiro completo construído usan
 ## Instalação 
 
 
-Primeiro, verifique se o PHP e o Laravel estão instalados no seu dispositivo. Clone o repo em seu local de preferência e modifique os arquivos de configuração do Phinx e o banco de dados para os dados do seu sql.
+Primeiro, verifique se o PHP e o Phinx estão instalados no seu dispositivo. Clone o repo em seu local de preferência e modifique os arquivos de configuração do Phinx e o banco de dados para os dados do seu sql.
 
 ```shell
     git clone https://github.com/ARCANGEL0/FlowManager.git
