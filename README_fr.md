@@ -137,28 +137,28 @@ Le projet suit la structure Modèle-Vue-Contrôleur, divisée par dossiers.
 
 ```txt
 |- Models 
-|    |- Gastos
-|    |- Mensalidades
-|    |- Usuarios
-|    |- Administrador
-|    '- Banco de dados
+|    |- Depenses
+|    |- Paiements
+|    |- Utilisateurs
+|    |- Administrateur
+|    ╰─ Base donees
 |- Controllers
-|    |- AdministradorControl
-|    |- GastosControl
-|    |- MensalidadesControl
-|    |- UsuariosControl
+|    |- AdminControl
+|    |- DepensesControl
+|    |- PaimentsControl
+|    |- UtilsControl
 |    |- db
-|    |  '- Controllers to fetch SQL Data
+|    |  ╰─ Contrôleurs pour rechercher des données
 |    |- login
-|    |  '- Controllers to handle login
-|    '- data
-|        '- Controllers to handle CRUD methods
- '- Views
+|    |  ╰─ Contrôleurs pour gérer la logim
+|    ╰─ data
+|        ╰─ Contrôleurs pour gérer les methodes CRUD
+ ╰─ Views
       |- Dashboard
-      |- Users
-      |- Subscriptions page 
-      |- Incomes and outcomes
-      |- Reports
+      |- Utilisateurs
+      |- Page des abonnements 
+      ╰─ Factures
+      
 ```
 
 ### Fonctions et methodes
