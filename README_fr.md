@@ -40,7 +40,7 @@
 
 ## Description du projet
 
-FlowManager est un tableau de bord de gestion financière complet construit à l'aide de Laravel. Il fournit une authentification de connexion sécurisée et une interface conviviale pour la gestion des abonnements mensuels, le suivi des paiements et l'affichage des informations clients / abonnés. Le tableau de bord permet également aux utilisateurs de contrôler leurs données, de gérer les finances mensuelles et annuelles, d'accès aux statistiques financières et de générer des rapports détaillés pendant des mois ou des années spécifiques.
+FlowManager est un tableau de bord de gestion financière complet construit à l'aide de Phinx. Il fournit une authentification de connexion sécurisée et une interface conviviale pour la gestion des abonnements mensuels, le suivi des paiements et l'affichage des informations clients / abonnés. Le tableau de bord permet également aux utilisateurs de contrôler leurs données, de gérer les finances mensuelles et annuelles, d'accès aux statistiques financières et de générer des rapports détaillés pendant des mois ou des années spécifiques.
 
 ## Table des matieres
 
@@ -57,7 +57,7 @@ FlowManager est un tableau de bord de gestion financière complet construit à l
 ## Installation 
 
 
-Tout d’abord, vérifiez si PHP et Laravel sont installés sur votre appareil. Clonez le dépôt à votre emplacement préféré et modifiez les fichiers de configuration Phinx et de base de données pour vos données de base de données.
+Tout d’abord, vérifiez si PHP et Phinx sont installés sur votre appareil. Clonez le dépôt à votre emplacement préféré et modifiez les fichiers de configuration Phinx et de base de données pour vos données de base de données.
 
 ```shell
     git clone https://github.com/ARCANGEL0/FlowManager.git
