@@ -40,7 +40,7 @@
 
 ## Project Description
 
-FlowManager is a comprehensive financial management dashboard built using Laravel. It provides secure login authentication and a user-friendly interface for managing monthly subscriptions, tracking payments, and displaying client/subscriber information. The dashboard also enables users to control their data, handle monthly and annual finances, access financial statistics, and generate detailed reports for specific months or years.
+FlowManager is a comprehensive financial management dashboard built using Phinx. It provides secure login authentication and a user-friendly interface for managing monthly subscriptions, tracking payments, and displaying client/subscriber information. The dashboard also enables users to control their data, handle monthly and annual finances, access financial statistics, and generate detailed reports for specific months or years.
 
 ## Table of Contents
 
@@ -56,7 +56,7 @@ FlowManager is a comprehensive financial management dashboard built using Larave
 
 ## Installation 
 
-Firstly, verify if you have PHP and Laravel installed in your device. Clone the repo to your preferred location, and edit the Phinx and database configuration files for your database data
+Firstly, verify if you have PHP and Phinx installed in your device. Clone the repo to your preferred location, and edit the Phinx and database configuration files for your database data
 
 ```shell
     git clone https://github.com/ARCANGEL0/FlowManager.git
