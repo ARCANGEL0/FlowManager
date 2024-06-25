@@ -140,25 +140,25 @@ O projeto segue a estrutura Model-View-Controller, dividido por pastas.
 |    |- Gastos
 |    |- Mensalidades
 |    |- Usuarios
-|    |- Administrador
-|    '- Banco de dados
+Controladores para buscar dados SQL   |- Administrador
+|    ╰─ Banco de dados
 |- Controllers
 |    |- AdministradorControl
 |    |- GastosControl
 |    |- MensalidadesControl
 |    |- UsuariosControl
 |    |- db
-|    |  '- Controllers to fetch SQL Data
+|    |  ╰─ Controladores para buscar dados SQL
 |    |- login
-|    |  '- Controllers to handle login
-|    '- data
-|        '- Controllers to handle CRUD methods
- '- Views
+|    |  ╰─ Controladores para lidar com login
+|    ╰─ data
+|        ╰─ Controladores para métodos CRUD
+ ╰─ Views
       |- Dashboard
-      |- Users
-      |- Subscriptions page 
-      |- Incomes and outcomes
-      |- Reports
+      |- Usuarios
+      |- Mensalidades
+      ╰─ Gastos
+      
 ```
 
 ### Funções e métodos
