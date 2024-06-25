@@ -174,7 +174,7 @@ A subscription model
 A money control model 
 > Manage incomes and outcomes by month or year
 > Check current balance based on past month
-> Generate reports with all money transactions 
+> Generate reports with all money transactions (not present in this repo)
 
 ## License
 
