@@ -135,28 +135,28 @@ The project follows Model-View-Controller structure, divided by folders.
 
 ```txt
 |- Models 
-|    |- Gastos
-|    |- Mensalidades
-|    |- Usuarios
-|    |- Administrador
-|    '- Banco de dados
+|    |- Outcomes
+|    |- Incomes
+|    |- Users
+|    |- Admin
+|    ╰─ Database
 |- Controllers
 |    |- AdministradorControl
-|    |- GastosControl
-|    |- MensalidadesControl
+|    |- OutcomesControl
+|    |- SubscriptionsControl
 |    |- UsuariosControl
 |    |- db
-|    |  '- Controllers to fetch SQL Data
+|    |  ╰─ Controllers to fetch SQL Data
 |    |- login
-|    |  '- Controllers to handle login
-|    '- data
-|        '- Controllers to handle CRUD methods
- '- Views
+|    |  ╰─ Controllers to handle login
+|    ╰─ data
+|        ╰─ Controllers to handle CRUD methods
+ ╰─ Views
       |- Dashboard
       |- Users
       |- Subscriptions page 
-      |- Incomes and outcomes
-      |- Reports
+      ╰─ Incomes and outcomes
+
 ```
 
 ### Functions and methods
